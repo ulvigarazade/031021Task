@@ -62,3 +62,5 @@ C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\
 C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\Debug\net5.0\Entities.dll
 C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\Debug\net5.0\Entities.pdb
+C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\ASUS\OneDrive - Ministry of Education SABAH Groups\Desktop\API\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

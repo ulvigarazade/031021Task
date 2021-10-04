@@ -1,4 +1,7 @@
+using API.AutoMapper;
 using DataAccessLayer;
+using DataAccessLayer.Implementations;
+using DataAccessLayer.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +39,9 @@ namespace API
                     builder.MigrationsAssembly(nameof(API));
                 });
             });
+            services.AddScoped(typeof(IRepository<>), typeof(EfCoreRepository<>));
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
